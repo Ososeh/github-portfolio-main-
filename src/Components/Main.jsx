@@ -12,7 +12,7 @@ function Main() {
       axios
         .get("https://api.github.com/users/Ososeh/repos", {
           headers: {
-            Authorization: "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",
+            Authorization: "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",
           },
         })
         .then((response) => {
